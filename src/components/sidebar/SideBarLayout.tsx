@@ -18,7 +18,7 @@ const Container = styled.div`
   padding: 12px 0 0 8px;
   height: 100%;
   width: 100%;
-`;
+`; 
 
 const Resizer = styled.div<{ $isResizeBarVisible: boolean }>`
   height: 100%;
