@@ -255,7 +255,6 @@ export default function EditSongPage({ params }: { params: { id: string } }) {
             {editMode === "info" && (
               <div className="space-y-4">
                 <Input
-                  label="Title"
                   value={editedSong?.title || ""}
                   onChange={(e) =>
                     setEditedSong({ ...editedSong, title: e.target.value })
